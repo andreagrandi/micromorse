@@ -85,5 +85,5 @@ while True:
     incoming = radio.receive()
     if incoming:
         letter = decode(incoming)
-        display.show(letter, delay=400, clear=True)
+        display.show(letter, delay=1000, clear=True)
     sleep(300)
